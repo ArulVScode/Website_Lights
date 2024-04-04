@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>:: Logic || JS ::</title>
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Caveat:wght@400..700&family=Concert+One&family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+    <header>
+        <nav>
+            <div class="logo">
+                <h4>Muh. Asrul Mulis</h4>
+            </div>
+    
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#task-1">Task_1</a></li>
+                <li><a href="#task-2">Task_2</a></li>
+            </ul>
+    
+            <div class="menu-toggle">
+                <input type="checkbox" placeholder="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <!-- Content -->
+    <div class="menu-content">
+        <section id="home">
+            <div class="profile">
+                <img src="profile.png" alt="png">
+                <h6>-Profile</h6>
+                Assalamualaikum, Hello!
+                <p>created by IT students to develop programming learning.</p>
+                <p>#Programming_learning_stage</p>
+            </div>
+            <div class="icon">
+                <ul>
+                    <li>
+                        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-square-github"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="about">
+            <div class="card1">
+                <p><b>-Introduction</b><br>Hi, I'm Asrul from Southeast Sulawesi, I migrated to Banten to continue my education by taking Literature 1 (S1) majoring in Informatics Engineering, Faculty of IK (Computer Science).</p>
+            </div>
+            <div class="card2">
+                <p><b>-task practice</b><br>I'm learning how to create a simple website. By setting/creating an Active Nav Link on the Scroll Using HTML CSS and Javascript. for CSS I also prepared a responsive flexbox & for JS I learned about js algorithms/logic to be able to turn the lights on and off.</p>
+            </div>
+        </section>
+        <section id="task-1">
+            <div class="card-lights">
+                <table>
+                    <tr>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="card-lights1">
+                            <img id="lights1" src="off.gif" alt="gif">
+                            <label class="switch">
+                                <input onclick="connected()" type="checkbox" id="toggle-default1" onchange="toggleLights()" placeholder="toggle">
+                                <span class="slider"></span>
+                            </label>
+                            </div>
+                            <div class="card-lights2">
+                                <img id="lights2" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default2" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights3">
+                                <img id="lights3" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default3" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="card-lights4">
+                                <img id="lights4" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default4" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights5">
+                                <img id="lights5" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default5" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="card-lights6">
+                                <img id="lights6" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default6" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights7">
+                                <img id="lights7" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default7" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="card-lights8">
+                                <img id="lights8" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default8" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights9">
+                                <img id="lights9" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default9" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                            <div class="card-lights10">
+                                <img id="lights10" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default10" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="all-contact">
+                    <label class="switch">
+                        <input onclick="connected()" type="checkbox" id="toggle-default"  placeholder="toggle">
+                        <span class="slider"></span>
+                    </label>
+    
+                    <label class="my_Checkbox">
+                        <input type="checkbox" id="default-checkbox" placeholder="checkbox">
+                    </label>
+                </div>
+            </div>
+        </section>
+        <section id="task-2">
+            <div class="card-lights2">
+                <table>
+                    <tr>
+                        <th>Ruang Keluarga</th>
+                        <th>Ruang Makan</th>
+                        <th>Ruang Tidur</th>
+                        <th>Ruang Tamu</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="card-lights11">
+                                <img id="lights11" src="off.gif" alt="gif">
+                                <img id="lights12" src="off.gif" alt="gif">
+                                <img id="lights13" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default11" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights12">
+                                <img id="lights14" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default12" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights13">
+                                <img id="lights15" src="off.gif" alt="gif">
+                                <img id="lights16" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default13" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="card-lights14">
+                                <img id="lights17" src="off.gif" alt="gif">
+                                <img id="lights18" src="off.gif" alt="gif">
+                                <img id="lights19" src="off.gif" alt="gif">
+                                <img id="lights20" src="off.gif" alt="gif">
+                                <label class="switch">
+                                    <input onclick="connected()" type="checkbox" id="toggle-default14" onchange="toggleLights()" placeholder="toggle">
+                                    <span class="slider"></span>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+    </div>
+    <!-- end Content -->
+    
+    <script src="app.js"></script>
+</body>
+</html>
